@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>DefaultValue</key>
+		<real>0.0</real>
+		<key>Key</key>
+		<string>version</string>
+	</dict>
+	<dict>
+		<key>DefaultValue</key>
+		<string>google</string>
+		<key>Key</key>
+		<string>engine</string>
+		<key>Title</key>
+		<string>Search Engine</string>
+		<key>Titles</key>
+		<array>
+			<string>Disable Search</string>
+			<string>Google</string>
+			<string>Yahoo!</string>
+			<string>Bing</string>
+			<string>DuckDuckGo</string>
+			<string>Custom</string>
+		</array>
+		<key>Type</key>
+		<string>PopUpButton</string>
+		<key>Values</key>
+		<array>
+			<string>disable</string>
+			<string>google</string>
+			<string>yahoo</string>
+			<string>bing</string>
+			<string>duckduckgo</string>
+			<string>custom</string>
+		</array>
+	</dict>
+	<dict>
+		<key>Key</key>
+		<string>customEngine</string>
+		<key>Title</key>
+		<string>Custom Search Engine</string>
+		<key>Type</key>
+		<string>TextField</string>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>Use @@@ for query</string>
+		<key>Type</key>
+		<string>Group</string>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string></string>
+		<key>Type</key>
+		<string>Hidden</string>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string> e.g. http://example.com/search?q=@@@</string>
+		<key>Type</key>
+		<string>Group</string>
+	</dict>
+	<dict/>
+</array>
+</plist>

@@ -10,7 +10,7 @@
 	</dict>
 	<dict>
 		<key>DefaultValue</key>
-		<string>google</string>
+		<string>http://google.com/search?q=@@@</string>
 		<key>Key</key>
 		<string>engine</string>
 		<key>Title</key>
@@ -22,17 +22,41 @@
 			<string>Yahoo!</string>
 			<string>Bing</string>
 			<string>DuckDuckGo</string>
-			<string>Custom</string>
+			<string>Baidu</string>
+			<string>Blekko</string>
+			<string>Ask</string>
+			<string>Dogpile</string>
+			<string>Wikipedia</string>
+			<string>Amazon</string>
+			<string>Facebook</string>
+			<string>Google Images</string>
+			<string>Google Maps</string>
+			<string>IMDb</string>
+			<string>Reddit</string>
+			<string>YouTube</string>
+			<string>Custom (use text field below)</string>
 		</array>
 		<key>Type</key>
 		<string>PopUpButton</string>
 		<key>Values</key>
 		<array>
 			<string>disable</string>
-			<string>google</string>
-			<string>yahoo</string>
-			<string>bing</string>
-			<string>duckduckgo</string>
+			<string>http://google.com/search?q=@@@</string>
+			<string>http://search.yahoo.com/search?p=@@@</string>
+			<string>http://bing.com/search?q=@@@</string>
+			<string>http://duckduckgo.com/?q=@@@</string>
+			<string>http://baidu.com/s?wd=@@@</string>
+			<string>http://blekko.com/ws/@@@</string>
+			<string>http://ask.com/web?q=@@@</string>
+			<string>http://dogpile.com/search/web?q=@@@</string>
+			<string>http://en.wikipedia.org/w/index.php?search=@@@</string>
+			<string>http://www.amazon.com/s/ref=nb_sb_noss?field-keywords=@@@&amp;url=search-alias%3Daps&amp;tag=moxt-20</string>
+			<string>https://www.facebook.com/search.php?q=@@@</string>
+			<string>http://www.google.com/images?q=@@@</string>
+			<string>http://maps.google.com/maps?q=@@@</string>
+			<string>http://www.imdb.com/find?s=all&amp;q=@@@</string>
+			<string>http://www.reddit.com/search?q=@@@</string>
+			<string>http://www.youtube.com/results?search_query=@@@</string>
 			<string>custom</string>
 		</array>
 	</dict>
@@ -43,18 +67,6 @@
 		<string>Custom Search Engine</string>
 		<key>Type</key>
 		<string>TextField</string>
-	</dict>
-	<dict>
-		<key>Title</key>
-		<string>Use @@@ for query</string>
-		<key>Type</key>
-		<string>Group</string>
-	</dict>
-	<dict>
-		<key>Title</key>
-		<string></string>
-		<key>Type</key>
-		<string>Hidden</string>
 	</dict>
 	<dict>
 		<key>Title</key>

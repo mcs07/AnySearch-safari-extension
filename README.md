@@ -2,6 +2,8 @@
 
 Use a custom search engine in the Safari 6 address bar, or disable searches completely.
 
+[Download here](http://www.macosxtips.co.uk/extensions/#anysearch)
+
 ## What's this then?
 
 As of Safari 6, the separate address bar and Google Search field have been combined into a single "omnibar" that can take both web addresses and searches. In the Safari Preferences, you can set one of three different search engines: Google, Yahoo! and Bing.

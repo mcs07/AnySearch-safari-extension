@@ -46,7 +46,7 @@
 			<string>http://bing.com/search?q=@@@</string>
 			<string>http://duckduckgo.com/?q=@@@</string>
 			<string>http://baidu.com/s?wd=@@@</string>
-			<string>http://blekko.com/ws/@@@</string>
+			<string>https://blekko.com/ws/?q=@@@</string>
 			<string>http://ask.com/web?q=@@@</string>
 			<string>http://dogpile.com/search/web?q=@@@</string>
 			<string>http://en.wikipedia.org/w/index.php?search=@@@</string>

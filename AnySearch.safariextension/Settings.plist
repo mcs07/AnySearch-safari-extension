@@ -10,7 +10,7 @@
 	</dict>
 	<dict>
 		<key>DefaultValue</key>
-		<string>http://google.com/search?q=@@@</string>
+		<string>http://www.google.com/search?q=@@@</string>
 		<key>Key</key>
 		<string>engine</string>
 		<key>Title</key>
@@ -41,15 +41,15 @@
 		<key>Values</key>
 		<array>
 			<string>disable</string>
-			<string>http://google.com/search?q=@@@</string>
+			<string>http://www.google.com/search?q=@@@</string>
 			<string>http://search.yahoo.com/search?p=@@@</string>
-			<string>http://bing.com/search?q=@@@</string>
-			<string>http://duckduckgo.com/?q=@@@</string>
-			<string>http://baidu.com/s?wd=@@@</string>
+			<string>http://www.bing.com/search?q=@@@</string>
+			<string>https://duckduckgo.com/?q=@@@</string>
+			<string>http://www.baidu.com/s?wd=@@@</string>
 			<string>https://blekko.com/ws/?q=@@@</string>
 			<string>http://ask.com/web?q=@@@</string>
-			<string>http://dogpile.com/search/web?q=@@@</string>
-			<string>http://en.wikipedia.org/w/index.php?search=@@@</string>
+			<string>http://www.dogpile.com/search/web?q=@@@</string>
+			<string>https://en.wikipedia.org/w/index.php?search=@@@</string>
 			<string>http://www.amazon.com/s/ref=nb_sb_noss?field-keywords=@@@&amp;url=search-alias%3Daps&amp;tag=moxt-20</string>
 			<string>https://www.facebook.com/search.php?q=@@@</string>
 			<string>http://www.google.com/images?q=@@@</string>

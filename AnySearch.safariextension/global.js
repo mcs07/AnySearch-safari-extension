@@ -15,14 +15,17 @@ var _gaq = _gaq || [];
 (function() {
 	var prevVersion = ext.settings.version;
 	switch (true) {
-	case (prevVersion == 100):	// No upgrade
+	case (prevVersion == 110):	// No upgrade
 		return;
+	case (prevVersion == 100):	// Upgrade from 100
+		_gaq.push(['_trackEvent', 'Install', '100']);
+		break;
 	case (prevVersion == 0): // New installation
 		_gaq.push(['_trackEvent', 'Install', 'New']);
 		break;
 	}
 	// After all upgrades and new installations:
-	ext.settings.version = 100;
+	ext.settings.version = 110;
 })()
 
 function handleBeforeSearch(e) {

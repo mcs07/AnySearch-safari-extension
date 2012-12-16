@@ -4,12 +4,6 @@
 <array>
 	<dict>
 		<key>DefaultValue</key>
-		<real>0.0</real>
-		<key>Key</key>
-		<string>version</string>
-	</dict>
-	<dict>
-		<key>DefaultValue</key>
 		<string>http://www.google.com/search?q=@@@</string>
 		<key>Key</key>
 		<string>engine</string>
@@ -74,6 +68,11 @@
 		<key>Type</key>
 		<string>Group</string>
 	</dict>
-	<dict/>
+	<dict>
+		<key>DefaultValue</key>
+		<real>0.0</real>
+		<key>Key</key>
+		<string>version</string>
+	</dict>
 </array>
 </plist>

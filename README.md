@@ -61,3 +61,11 @@ AnySearch listens on the `beforeSearch` event. It first cancels the default beha
 		e.target.url = url;
 	}
 
+## No tracking
+
+AnySearch contains Google Analytics code that lets me track how many people have downloaded the extension, and tells me which version they are using. If you are not cool with this, you have two options:
+
+- Clone the Github repo or download the code, remove the Analytics bit, and rebuild the extension package using the Safari Extension Builder. Then you can be certain of what code you are running.
+
+- Alternatively, just [download this version](http://assets.matt-swain.com/extensions/anysearch-donottrack.safariextz) that does not contain the Analytics code. I try to keep it up to date with the main version.
+

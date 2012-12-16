@@ -4,7 +4,7 @@ app.addEventListener('beforeSearch', handleBeforeSearch, false);
 
 // Google Analytics
 var _gaq = _gaq || [];
-	_gaq.push(['_setAccount', 'UA-125911-12']);	// TODO: Set up analytics account
+	_gaq.push(['_setAccount', 'UA-125911-12']);
 	_gaq.push(['_trackPageview']);
 (function() {
 	var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;

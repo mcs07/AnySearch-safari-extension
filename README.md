@@ -1,6 +1,6 @@
 # AnySearch Safari Extension
 
-Use a custom search engine in the Safari 6 address bar, or disable searches completely.
+Use a custom search engine in the Safari address bar, or disable searches completely.
 
 [Download here](http://www.macosxtips.co.uk/extensions/#anysearch)
 
@@ -17,13 +17,7 @@ Alternatively, you can disable the search functionality completely, turning the 
 If the search engine you want to use is not in the list, you can specify a custom one using the text field in the settings. To find the url you need to put here, go to your chosen search engine and search for `@@@`. Then just copy and paste the address of the search results. It should look something like this:
 
     http://www.google.com/search?q=@@@
-    
-## Making the search results URL appear in the address bar
-
-Even if you want to use one of the three preset search engines, AnySearch can still be useful. One annoyance in Safari 6 is that when the search results of your chosen search engine are displayed, the address bar only shows the search query, not the actual address of the results. This means it isn't easy to copy and paste the URL to somewhere else.
-
-You can use AnySearch to solve this problem. Just set your default search engine in Safari Preferences to one of the other search engines that you don't normally use. Then set AnySearch to use the one you do actually want to use - Google, Yahoo! or Bing.
-
+	
 ## More advanced search functions
 
 The extension [KeySearch](http://www.macosxtips.co.uk/keysearch) offers this same functionality and more. In particular, you can also:
@@ -48,7 +42,6 @@ AnySearch listens on the `beforeSearch` event. It first cancels the default beha
 
 	function handleBeforeSearch(e) {
 		e.preventDefault();
-		console.log(e);
 		var url = ext.settings.engine;
 		if (url == 'disable') {
 			url = 'http://' + e.query + '.com'
@@ -60,12 +53,3 @@ AnySearch listens on the `beforeSearch` event. It first cancels the default beha
 		}	
 		e.target.url = url;
 	}
-
-## No tracking
-
-AnySearch contains Google Analytics code that lets me track how many people have downloaded the extension, and tells me which version they are using. If you are not cool with this, you have two options:
-
-- Clone the Github repo or download the code, remove the Analytics bit, and rebuild the extension package using the Safari Extension Builder. Then you can be certain of what code you are running.
-
-- Alternatively, just [download this version](http://assets.matt-swain.com/extensions/anysearch-donottrack.safariextz) that does not contain the Analytics code. I try to keep it up to date with the main version.
-

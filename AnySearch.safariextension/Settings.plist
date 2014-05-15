@@ -4,7 +4,7 @@
 <array>
 	<dict>
 		<key>DefaultValue</key>
-		<string>http://www.google.com/search?q=@@@</string>
+		<string>https://www.google.com/search?q=@@@</string>
 		<key>Key</key>
 		<string>engine</string>
 		<key>Title</key>
@@ -28,6 +28,8 @@
 			<string>IMDb</string>
 			<string>Reddit</string>
 			<string>YouTube</string>
+			<string>Startpage</string>
+			<string>Aol</string>
 			<string>Custom (use text field below)</string>
 		</array>
 		<key>Type</key>
@@ -35,9 +37,9 @@
 		<key>Values</key>
 		<array>
 			<string>disable</string>
-			<string>http://www.google.com/search?q=@@@</string>
-			<string>http://search.yahoo.com/search?p=@@@</string>
-			<string>http://www.bing.com/search?q=@@@</string>
+			<string>https://www.google.com/search?q=@@@</string>
+			<string>https://search.yahoo.com/search?p=@@@</string>
+			<string>https://www.bing.com/search?q=@@@</string>
 			<string>https://duckduckgo.com/?q=@@@</string>
 			<string>http://www.baidu.com/s?wd=@@@</string>
 			<string>https://blekko.com/ws/?q=@@@</string>
@@ -46,11 +48,13 @@
 			<string>https://en.wikipedia.org/w/index.php?search=@@@</string>
 			<string>http://www.amazon.com/s/ref=nb_sb_noss?field-keywords=@@@&amp;url=search-alias%3Daps&amp;tag=moxt-20</string>
 			<string>https://www.facebook.com/search.php?q=@@@</string>
-			<string>http://www.google.com/images?q=@@@</string>
-			<string>http://maps.google.com/maps?q=@@@</string>
+			<string>https://www.google.com/images?q=@@@</string>
+			<string>https://maps.google.com/maps?q=@@@</string>
 			<string>http://www.imdb.com/find?s=all&amp;q=@@@</string>
 			<string>http://www.reddit.com/search?q=@@@</string>
-			<string>http://www.youtube.com/results?search_query=@@@</string>
+			<string>https://www.youtube.com/results?search_query=@@@</string>
+			<string>https://startpage.com/do/search?q=@@@</string>
+			<string>http://search.aol.com/aol/search?q=@@@</string>
 			<string>custom</string>
 		</array>
 	</dict>

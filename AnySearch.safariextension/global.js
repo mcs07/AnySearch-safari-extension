@@ -40,6 +40,8 @@ safari.application.addEventListener('menu', function(e) {
 	var menu = e.target;
 	if (menu.menuItems.length == 1) {
 		menu.removeMenuItem(0);
+		menu.appendMenuItem('anysearch', 'AnySearch');
+		menu.appendSeparator();
 		for (var engine in engines) {
 		    if (engines.hasOwnProperty(engine)) {
 		        menu.appendMenuItem(engine, engines[engine].title);
@@ -47,7 +49,7 @@ safari.application.addEventListener('menu', function(e) {
 		}
 	}
 	var activeEngine = safari.extension.settings.engine;
-	console.log(activeEngine);
+	menu.menuItems[0].disabled = true;
 	for (var i = 0; i < menu.menuItems.length; i++) {
 		var menuItem = menu.menuItems[i];
 		if (menuItem.identifier === activeEngine) {

@@ -2,15 +2,15 @@
 
 Use a custom search engine in the Safari address bar, or disable searches completely.
 
-[Download here](http://www.macosxtips.co.uk/extensions/#anysearch)
+[Download here](http://matt-swain.com/extensions/)
 
 ## What's this then?
 
-As of Safari 6, the separate address bar and Google Search field have been combined into a single "omnibar" that can take both web addresses and searches. In the Safari Preferences, you can set one of three different search engines: Google, Yahoo! and Bing.
+As of Safari 6, the separate address bar and Google Search field have been combined into a single "Smart Search Field" that can take both web addresses and searches. In the Safari Preferences, you can set one of four different search engines: Google, Yahoo!, Bing, and DuckDuckGo.
 
 This extension allows you to set any search engine you want. In the extension settings, there is a long list of popular search engines to choose from, or you can specify your own custom address.
 
-Alternatively, you can disable the search functionality completely, turning the omnibar back into a simple address bar.
+Alternatively, you can disable the search functionality completely, turning the "Smart Search Field" back into a simple address bar.
 
 ## Specifying a custom search engine
 
@@ -32,24 +32,3 @@ The extension [KeySearch](http://www.macosxtips.co.uk/keysearch) offers this sam
 
 [Read more and download](http://www.macosxtips.co.uk/keysearch)
 
-## The technical details
-
-In Safari 5, there was no way for extensions to modify the behaviour of the separate search box. However there was a `beforeNavigate` event that allowed extensions to modify the behaviour of the address bar.
-
-As of Safari 6, in addition to the `beforeNavigate` event, there is a `beforeSearch` event. One of these events will be called when the user enters some text into the address bar and presses return: `beforeNavigate` if they enter a URL, `beforeSearch` if they enter anything else.
-
-AnySearch listens on the `beforeSearch` event. It first cancels the default behaviour, then checks your settings for which search engine you want. Then it puts your query into the specified search engine, and displays the results. Here's the relevant code:
-
-	function handleBeforeSearch(e) {
-		e.preventDefault();
-		var url = ext.settings.engine;
-		if (url == 'disable') {
-			url = 'http://' + e.query + '.com'
-		} else {
-			if (url == 'custom') {
-				var url = ext.settings.customEngine;
-			}
-			url = url.replace('@@@', encodeURIComponent(e.query).replace(/%20/g,'+'));
-		}	
-		e.target.url = url;
-	}

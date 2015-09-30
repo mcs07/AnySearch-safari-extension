@@ -37,24 +37,24 @@
 		<key>Values</key>
 		<array>
 			<string>disable</string>
-			<string>https://www.google.com/search?q=@@@</string>
-			<string>https://search.yahoo.com/search?p=@@@</string>
-			<string>https://www.bing.com/search?q=@@@</string>
-			<string>https://duckduckgo.com/?q=@@@</string>
-			<string>http://www.baidu.com/s?wd=@@@</string>
-			<string>https://blekko.com/ws/?q=@@@</string>
-			<string>http://ask.com/web?q=@@@</string>
-			<string>http://www.dogpile.com/search/web?q=@@@</string>
-			<string>https://en.wikipedia.org/w/index.php?search=@@@</string>
-			<string>http://www.amazon.com/s/ref=nb_sb_noss?field-keywords=@@@&amp;url=search-alias%3Daps&amp;tag=moxt-20</string>
-			<string>https://www.facebook.com/search.php?q=@@@</string>
-			<string>https://www.google.com/images?q=@@@</string>
-			<string>https://maps.google.com/maps?q=@@@</string>
-			<string>http://www.imdb.com/find?s=all&amp;q=@@@</string>
-			<string>http://www.reddit.com/search?q=@@@</string>
-			<string>https://www.youtube.com/results?search_query=@@@</string>
-			<string>https://startpage.com/do/search?q=@@@</string>
-			<string>http://search.aol.com/aol/search?q=@@@</string>
+			<string>google</string>
+			<string>yahoo</string>
+			<string>bing</string>
+			<string>duckduckgo</string>
+			<string>baidu</string>
+			<string>blekko</string>
+			<string>ask</string>
+			<string>dogpile</string>
+			<string>wikipedia</string>
+			<string>amazon</string>
+			<string>facebook</string>
+			<string>googleimages</string>
+			<string>googlemaps</string>
+			<string>imdb</string>
+			<string>reddit</string>
+			<string>youtube</string>
+			<string>startpage</string>
+			<string>aol</string>
 			<string>custom</string>
 		</array>
 	</dict>

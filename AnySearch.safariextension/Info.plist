@@ -20,6 +20,43 @@
 	<dict>
 		<key>Global Page</key>
 		<string>global.html</string>
+		<key>Menus</key>
+		<array>
+			<dict>
+				<key>Identifier</key>
+				<string>anysearchMenu</string>
+				<key>Menu Items</key>
+				<array>
+					<dict>
+						<key>Command</key>
+						<string>error</string>
+						<key>Identifier</key>
+						<string>error</string>
+						<key>Title</key>
+						<string>Could not load AnySearch search engine list</string>
+					</dict>
+				</array>
+			</dict>
+		</array>
+		<key>Toolbar Items</key>
+		<array>
+			<dict>
+				<key>Identifier</key>
+				<string>anysearchButton</string>
+				<key>Image</key>
+				<string>toolbar.png</string>
+				<key>Include By Default</key>
+				<true/>
+				<key>Label</key>
+				<string>AnySearch</string>
+				<key>Menu</key>
+				<string>anysearchMenu</string>
+				<key>Palette Label</key>
+				<string>AnySearch</string>
+				<key>Tool Tip</key>
+				<string>AnySearch</string>
+			</dict>
+		</array>
 	</dict>
 	<key>Content</key>
 	<dict>

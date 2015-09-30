@@ -5,7 +5,7 @@
 	<key>Author</key>
 	<string>Matt Swain</string>
 	<key>Builder Version</key>
-	<string>9537.75.14</string>
+	<string>10601.1.56.2</string>
 	<key>CFBundleDisplayName</key>
 	<string>AnySearch</string>
 	<key>CFBundleIdentifier</key>
@@ -65,6 +65,8 @@
 	</dict>
 	<key>Description</key>
 	<string>Use a custom search engine in the Safari address bar, or disable searches completely</string>
+	<key>DeveloperIdentifier</key>
+	<string>D4EFHA5V49</string>
 	<key>ExtensionInfoDictionaryVersion</key>
 	<string>1.0</string>
 	<key>Permissions</key>
@@ -78,6 +80,6 @@
 	<key>Update Manifest URL</key>
 	<string>http://assets.matt-swain.com/extensions/anysearch.plist</string>
 	<key>Website</key>
-	<string>http://matt-swain.com</string>
+	<string>http://matt-swain.com/extensions</string>
 </dict>
 </plist>

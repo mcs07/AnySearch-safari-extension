@@ -2,7 +2,7 @@
 
 Use a custom search engine in the Safari address bar, or disable searches completely.
 
-[Download here](http://matt-swain.com/extensions/)
+[Download here](http://matt-swain.com/extensions)
 
 ## What's this then?
 

@@ -3,6 +3,7 @@ engines = {
 	yahoo: {title: 'Yahoo!', url: 'https://search.yahoo.com/search?p=@@@'},
 	bing: {title: 'Bing', url: 'https://www.bing.com/search?q=@@@'},
 	duckduckgo: {title: 'DuckDuckGo', url: 'https://duckduckgo.com/?q=@@@'},
+	quadrazid: {title: 'quadrazid', url: 'https://www.quadrazid.com/#q=@@@'},
 	baidu: {title: 'Baidu', url: 'http://www.baidu.com/s?wd=@@@'},
 	ask: {title: 'Ask', url: 'http://ask.com/web?q=@@@'},
 	dogpile: {title: 'Dogpile', url: 'http://www.dogpile.com/search/web?q=@@@'},

@@ -1,3 +1,7 @@
+# DEPRECATED: Safari no longer supports extensions that modify the behaviour of the address bar. Consider using a separate tool, such as Alfred: https://www.alfredapp.com
+
+---
+
 # AnySearch Safari Extension
 
 Use a custom search engine in the Safari address bar, or disable searches completely.

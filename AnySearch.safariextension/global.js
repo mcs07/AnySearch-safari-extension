@@ -16,6 +16,7 @@ engines = {
 	youtube: {title: 'YouTube', url: 'https://www.youtube.com/results?search_query=@@@'},
 	startpage: {title: 'Startpage', url: 'https://startpage.com/do/search?q=@@@'},
 	aol: {title: 'Aol', url: 'http://search.aol.com/aol/search?q=@@@'},
+	qwant: {title: 'Qwant', url: 'https://www.qwant.com/?q=@@@'},
 	disable: {title: 'Disable Search', url: 'disable'},
 	custom: {title: 'Custom', url: 'custom'}
 }

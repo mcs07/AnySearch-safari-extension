@@ -30,6 +30,7 @@
 			<string>YouTube</string>
 			<string>Startpage</string>
 			<string>Aol</string>
+			<string>Qwant</string>
 			<string>Custom (use text field below)</string>
 		</array>
 		<key>Type</key>
@@ -55,6 +56,7 @@
 			<string>youtube</string>
 			<string>startpage</string>
 			<string>aol</string>
+			<string>qwant</string>
 			<string>custom</string>
 		</array>
 	</dict>
